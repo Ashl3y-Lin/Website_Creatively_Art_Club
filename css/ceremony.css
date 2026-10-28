@@ -573,3 +573,65 @@ footer a{color:var(--sun)}
 :root[data-theme="dark"] .hero .splat{opacity:.18!important}
 :root[data-theme="dark"] .theme-btn,:root[data-theme="dark"] .lang-btn{border-color:#a98cf5;box-shadow:0 3px 0 #a98cf5}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .sunbox::before{background:var(--sun);opacity:.12}:root:not([data-theme="light"]) .hero .splat{opacity:.18!important}:root:not([data-theme="light"]) .theme-btn,:root:not([data-theme="light"]) .lang-btn{border-color:#a98cf5;box-shadow:0 3px 0 #a98cf5}}
+
+/* dark mode: white + yellow text */
+:root[data-theme="dark"]{--fg:#FFFFFF;--muted:#FFE9A8;--violet-ink:#FBD959;--line:#4a3f66;--card:#241d33;--paper:#14101c;--band:#1c1628}
+:root[data-theme="dark"] body{color:#fff}
+:root[data-theme="dark"] .mark,:root[data-theme="dark"] .brushy,:root[data-theme="dark"] .ev-theme b{background-image:linear-gradient(transparent 62%,#6D46CB 62% 90%,transparent 90%)!important}
+:root[data-theme="dark"] .brushy{background-size:100% 100%}
+:root[data-theme="dark"] h1,:root[data-theme="dark"] h2,:root[data-theme="dark"] h3,:root[data-theme="dark"] h4{color:#FBD959}
+:root[data-theme="dark"] .hero h1 .mark,:root[data-theme="dark"] .hero h1 .brushy{color:#FBD959!important}
+:root[data-theme="dark"] .hero h1 span:not(.mark){color:#fff}
+:root[data-theme="dark"] p,:root[data-theme="dark"] li,:root[data-theme="dark"] small,:root[data-theme="dark"] .eyebrow,:root[data-theme="dark"] figcaption{color:inherit}
+:root[data-theme="dark"] .eyebrow,:root[data-theme="dark"] .ev-theme span,:root[data-theme="dark"] .label{color:#FFE9A8!important}
+:root[data-theme="dark"] .navlinks a{color:#fff}:root[data-theme="dark"] .navlinks a:hover{color:#FBD959}
+:root[data-theme="dark"] .brand{color:#FBD959}
+:root[data-theme="dark"] .mt-c b,:root[data-theme="dark"] .lg-node b,:root[data-theme="dark"] .cer-agenda time,:root[data-theme="dark"] .lg-inv small,:root[data-theme="dark"] .chip .more,:root[data-theme="dark"] .link strong,:root[data-theme="dark"] .cc-info strong,:root[data-theme="dark"] .aw-body h4,:root[data-theme="dark"] .lg-sp-body strong,:root[data-theme="dark"] .mem b,:root[data-theme="dark"] .gintro h3,:root[data-theme="dark"] .teamhead h3{color:#FBD959}
+:root[data-theme="dark"] .mem small,:root[data-theme="dark"] .hint,:root[data-theme="dark"] .ev-subnote,:root[data-theme="dark"] .ev-info p,:root[data-theme="dark"] .sec-head p,:root[data-theme="dark"] .head p,:root[data-theme="dark"] .mb-desc,:root[data-theme="dark"] .aw-body p,:root[data-theme="dark"] .cc-info span:last-child,:root[data-theme="dark"] .ev-empty,:root[data-theme="dark"] .lg-inv p,:root[data-theme="dark"] .lg-node small,:root[data-theme="dark"] .ab-stats span,:root[data-theme="dark"] .mt-c small{color:#FFF4CF!important}
+:root[data-theme="dark"] .ab-stats b,:root[data-theme="dark"] .mb-count b{color:#FBD959}
+:root[data-theme="dark"] .ev-tab{color:#fff}:root[data-theme="dark"] .ev-tab small{color:#FFE9A8}
+:root[data-theme="dark"] .ev-tab.on{color:#fff}
+:root[data-theme="dark"] .yr-chip{color:#fff;background:#241d33;border-color:#FBD959;box-shadow:0 5px 0 #FBD959}
+:root[data-theme="dark"] .yr-chip.on{background:#FBD959;color:#1d1729}
+:root[data-theme="dark"] .btn.ghost,:root[data-theme="dark"] .toggle{color:#FBD959;border-color:#FBD959}
+:root[data-theme="dark"] .chip .body q,:root[data-theme="dark"] .chip q{color:#fff}
+:root[data-theme="dark"] .mv .v p,:root[data-theme="dark"] .mv .v h3,:root[data-theme="dark"] .ab-c1,:root[data-theme="dark"] .ab-c1 b,:root[data-theme="dark"] .ab-c1 p,:root[data-theme="dark"] .lg-quote,:root[data-theme="dark"] .lg-quote small,:root[data-theme="dark"] .cer-facts div,:root[data-theme="dark"] .cer-facts b{color:#1d1729!important}
+:root[data-theme="dark"] .mv .m h3,:root[data-theme="dark"] .mv .m p,:root[data-theme="dark"] .ab-c2,:root[data-theme="dark"] .ab-c2 b,:root[data-theme="dark"] .ab-c2 p{color:#fff!important}
+:root[data-theme="dark"] .ab-c2 strong{color:#FBD959!important}
+:root[data-theme="dark"] .theme-btn,:root[data-theme="dark"] .lang-btn{border-color:#FBD959;box-shadow:0 3px 0 #FBD959}
+:root[data-theme="dark"] .lang-btn span{color:#fff}
+:root[data-theme="dark"] .cer-head h3{color:#FBD959}
+@media (prefers-color-scheme:dark){
+:root:not([data-theme="light"]){--fg:#FFFFFF;--muted:#FFE9A8;--violet-ink:#FBD959;--line:#4a3f66;--card:#241d33;--paper:#14101c;--band:#1c1628}
+:root:not([data-theme="light"]) body{color:#fff}
+:root:not([data-theme="light"]) .mark,:root:not([data-theme="light"]) .brushy,:root:not([data-theme="light"]) .ev-theme b{background-image:linear-gradient(transparent 62%,#6D46CB 62% 90%,transparent 90%)!important}
+:root:not([data-theme="light"]) .brushy{background-size:100% 100%}
+:root:not([data-theme="light"]) h1,:root:not([data-theme="light"]) h2,:root:not([data-theme="light"]) h3,:root:not([data-theme="light"]) h4{color:#FBD959}
+:root:not([data-theme="light"]) .hero h1 .mark,:root:not([data-theme="light"]) .hero h1 .brushy{color:#FBD959!important}
+:root:not([data-theme="light"]) .hero h1 span:not(.mark){color:#fff}
+:root:not([data-theme="light"]) p,:root:not([data-theme="light"]) li,:root:not([data-theme="light"]) small,:root:not([data-theme="light"]) .eyebrow,:root:not([data-theme="light"]) figcaption{color:inherit}
+:root:not([data-theme="light"]) .eyebrow,:root:not([data-theme="light"]) .ev-theme span,:root:not([data-theme="light"]) .label{color:#FFE9A8!important}
+:root:not([data-theme="light"]) .navlinks a{color:#fff}:root:not([data-theme="light"]) .navlinks a:hover{color:#FBD959}
+:root:not([data-theme="light"]) .brand{color:#FBD959}
+:root:not([data-theme="light"]) .mt-c b,:root:not([data-theme="light"]) .lg-node b,:root:not([data-theme="light"]) .cer-agenda time,:root:not([data-theme="light"]) .lg-inv small,:root:not([data-theme="light"]) .chip .more,:root:not([data-theme="light"]) .link strong,:root:not([data-theme="light"]) .cc-info strong,:root:not([data-theme="light"]) .aw-body h4,:root:not([data-theme="light"]) .lg-sp-body strong,:root:not([data-theme="light"]) .mem b,:root:not([data-theme="light"]) .gintro h3,:root:not([data-theme="light"]) .teamhead h3{color:#FBD959}
+:root:not([data-theme="light"]) .mem small,:root:not([data-theme="light"]) .hint,:root:not([data-theme="light"]) .ev-subnote,:root:not([data-theme="light"]) .ev-info p,:root:not([data-theme="light"]) .sec-head p,:root:not([data-theme="light"]) .head p,:root:not([data-theme="light"]) .mb-desc,:root:not([data-theme="light"]) .aw-body p,:root:not([data-theme="light"]) .cc-info span:last-child,:root:not([data-theme="light"]) .ev-empty,:root:not([data-theme="light"]) .lg-inv p,:root:not([data-theme="light"]) .lg-node small,:root:not([data-theme="light"]) .ab-stats span,:root:not([data-theme="light"]) .mt-c small{color:#FFF4CF!important}
+:root:not([data-theme="light"]) .ab-stats b,:root:not([data-theme="light"]) .mb-count b{color:#FBD959}
+:root:not([data-theme="light"]) .ev-tab{color:#fff}:root:not([data-theme="light"]) .ev-tab small{color:#FFE9A8}
+:root:not([data-theme="light"]) .ev-tab.on{color:#fff}
+:root:not([data-theme="light"]) .yr-chip{color:#fff;background:#241d33;border-color:#FBD959;box-shadow:0 5px 0 #FBD959}
+:root:not([data-theme="light"]) .yr-chip.on{background:#FBD959;color:#1d1729}
+:root:not([data-theme="light"]) .btn.ghost,:root:not([data-theme="light"]) .toggle{color:#FBD959;border-color:#FBD959}
+:root:not([data-theme="light"]) .chip .body q,:root:not([data-theme="light"]) .chip q{color:#fff}
+:root:not([data-theme="light"]) .mv .v p,:root:not([data-theme="light"]) .mv .v h3,:root:not([data-theme="light"]) .ab-c1,:root:not([data-theme="light"]) .ab-c1 b,:root:not([data-theme="light"]) .ab-c1 p,:root:not([data-theme="light"]) .lg-quote,:root:not([data-theme="light"]) .lg-quote small,:root:not([data-theme="light"]) .cer-facts div,:root:not([data-theme="light"]) .cer-facts b{color:#1d1729!important}
+:root:not([data-theme="light"]) .mv .m h3,:root:not([data-theme="light"]) .mv .m p,:root:not([data-theme="light"]) .ab-c2,:root:not([data-theme="light"]) .ab-c2 b,:root:not([data-theme="light"]) .ab-c2 p{color:#fff!important}
+:root:not([data-theme="light"]) .ab-c2 strong{color:#FBD959!important}
+:root:not([data-theme="light"]) .theme-btn,:root:not([data-theme="light"]) .lang-btn{border-color:#FBD959;box-shadow:0 3px 0 #FBD959}
+:root:not([data-theme="light"]) .lang-btn span{color:#fff}
+:root:not([data-theme="light"]) .cer-head h3{color:#FBD959}
+}
+
+/* dark mode: brighter text */
+:root[data-theme="dark"]{--violet-ink:#FFE27A;--muted:#ddd3f2;--fg:#ffffff;}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--violet-ink:#FFE27A;--muted:#ddd3f2;--fg:#ffffff;}}
+:root[data-theme="dark"] .mark{background:linear-gradient(transparent 62%,#6D46CB 62% 90%,transparent 90%)} :root[data-theme="dark"] .brushy{background:linear-gradient(transparent 62%,#6D46CB 62% 90%,transparent 90%) no-repeat 0 0/100% 100%} :root[data-theme="dark"] .hero h1{color:#FFE27A} :root[data-theme="dark"] .hero h1 span:not(.mark){color:#fff} :root[data-theme="dark"] .ev-theme b{background:linear-gradient(transparent 62%,#6D46CB 62% 90%,transparent 90%);color:#FFE27A} :root[data-theme="dark"] .em{background:linear-gradient(transparent 62%,#6D46CB 62% 90%,transparent 90%);color:#FFE27A} :root[data-theme="dark"] h3{color:#FFE27A} :root[data-theme="dark"] .navlinks a{color:#f1ecff} :root[data-theme="dark"] .navlinks a:hover{color:#FFE27A} :root[data-theme="dark"] .brand{color:#FFE27A} :root[data-theme="dark"] .eyebrow{color:#ffffff;opacity:.85} :root[data-theme="dark"] .lede, .head p, .sec-head p{color:#eee8ff} :root[data-theme="dark"] .btn.ghost{color:#FFE27A;border-color:#FFE27A} :root[data-theme="dark"] .mem small, .team small{color:#ddd3f2} :root[data-theme="dark"] .lg-node b, .lg-sub, .lg-end, .gintro h3, .goals-title, .teamhead h3{color:#FFE27A} :root[data-theme="dark"] .chip .more{color:#FFE27A;border-color:#FFE27A} :root[data-theme="dark"] .toggle{color:#FFE27A;border-color:#FFE27A} :root[data-theme="dark"] .yr-chip:not(.on){color:#fff} :root[data-theme="dark"] .mb-dot:not(.on){color:#FFE27A;border-color:#FFE27A} :root[data-theme="dark"] .ab-year{-webkit-text-stroke-color:#FFE27A}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .mark{background:linear-gradient(transparent 62%,#6D46CB 62% 90%,transparent 90%)} :root:not([data-theme="light"]) .brushy{background:linear-gradient(transparent 62%,#6D46CB 62% 90%,transparent 90%) no-repeat 0 0/100% 100%} :root:not([data-theme="light"]) .hero h1{color:#FFE27A} :root:not([data-theme="light"]) .hero h1 span:not(.mark){color:#fff} :root:not([data-theme="light"]) .ev-theme b{background:linear-gradient(transparent 62%,#6D46CB 62% 90%,transparent 90%);color:#FFE27A} :root:not([data-theme="light"]) .em{background:linear-gradient(transparent 62%,#6D46CB 62% 90%,transparent 90%);color:#FFE27A} :root:not([data-theme="light"]) h3{color:#FFE27A} :root:not([data-theme="light"]) .navlinks a{color:#f1ecff} :root:not([data-theme="light"]) .navlinks a:hover{color:#FFE27A} :root:not([data-theme="light"]) .brand{color:#FFE27A} :root:not([data-theme="light"]) .eyebrow{color:#ffffff;opacity:.85} :root:not([data-theme="light"]) .lede, .head p, .sec-head p{color:#eee8ff} :root:not([data-theme="light"]) .btn.ghost{color:#FFE27A;border-color:#FFE27A} :root:not([data-theme="light"]) .mem small, .team small{color:#ddd3f2} :root:not([data-theme="light"]) .lg-node b, .lg-sub, .lg-end, .gintro h3, .goals-title, .teamhead h3{color:#FFE27A} :root:not([data-theme="light"]) .chip .more{color:#FFE27A;border-color:#FFE27A} :root:not([data-theme="light"]) .toggle{color:#FFE27A;border-color:#FFE27A} :root:not([data-theme="light"]) .yr-chip:not(.on){color:#fff} :root:not([data-theme="light"]) .mb-dot:not(.on){color:#FFE27A;border-color:#FFE27A} :root:not([data-theme="light"]) .ab-year{-webkit-text-stroke-color:#FFE27A}}
